@@ -1,0 +1,95 @@
+/* Estilo geral */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 10px 20px;
+  border-bottom: 2px solid #ccc;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #008000;
+}
+
+/* Menu e Carrinho */
+.hidden {
+  display: none;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.category h3 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #008000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #005500;
+}
+
+#cart {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 2px solid #ccc;
+}
+
+#cart-items li {
+  margin-bottom: 5px;
+}
+
+#cart-total {
+  font-size: 20px;
+  font-weight: bold;
+}

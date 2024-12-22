@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Wizard's Cafe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <header>
+    <div class="logo">The Wizard’s Cafe</div>
+    <nav>
+      <a href="#" id="menu-btn">Nosso Menu</a>
+      <a href="#" id="btnReserva">Faça uma Reserva</a>
+      <a href="#">Sobre Nós</a>
+    </nav>
+  </header>
+  <header>
+    
+
+  
+  <main>
+    <!-- Menu -->
+    <section id="menu" class="hidden">
+      <h2>Nosso Menu</h2>
+      <div class="category">
+        <h3>Comidas</h3>
+        <ul>
+          <li>
+            <span>Pastel de Abóbora</span> - R$12,00 
+            <button class="add-to-cart" data-name="Pastel de Abóbora" data-price="12">Adicionar</button>
+          </li>
+          <li>
+            <span>Bolo de Caldeirão</span> - R$15,00 
+            <button class="add-to-cart" data-name="Bolo de Caldeirão" data-price="15">Adicionar</button>
+          </li>
+        </ul>
+      </div>
+      <div class="category">
+        <h3>Bebidas</h3>
+        <ul>
+          <li>
+            <span>Cerveja Amanteigada</span> - R$10,00 
+            <button class="add-to-cart" data-name="Cerveja Amanteigada" data-price="10">Adicionar</button>
+          </li>
+          <li>
+            <span>Suco de Abóbora</span> - R$8,00 
+            <button class="add-to-cart" data-name="Suco de Abóbora" data-price="8">Adicionar</button>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Carrinho -->
+    <section id="cart" class hidden>
+      <h2>Seu Carrinho</h2>
+      <ul id="cart-items"></ul>
+      <p><strong>Total:</strong> R$<span id="cart-total">0.00</span></p>
+    </section>
+  </main>
+
+ 
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
